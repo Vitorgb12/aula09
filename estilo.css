@@ -14,12 +14,8 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-
-nav div {
-    border:1px solid black;
-    padding: 10px;
-}
- nav div:not(:first-child) {
+ 
+nav div:not(:first-child) {
      border: 1px solid black;
      padding: 10px;
  }
